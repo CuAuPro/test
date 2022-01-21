@@ -3,3 +3,10 @@ void set_speed(uint8_t var)
 
 	return var;
 }
+
+void set_power(uint8_t var)
+{
+
+	uint8_t speed = set_speed(var);
+	return speed;
+}
