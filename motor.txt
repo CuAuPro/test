@@ -1,0 +1,5 @@
+void set_speed(uint8_t var)
+{
+
+	return var;
+}
