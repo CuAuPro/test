@@ -1,12 +1,12 @@
-void set_speed(uint8_t var)
+void set_speed(uint16_t var)
 {
 
 	return var;
 }
 
-void set_power(uint8_t var)
+void set_power(uint16_t var)
 {
 
-	uint8_t speed = set_speed(var);
+	uint16_t speed = set_speed(var);
 	return speed;
 }
